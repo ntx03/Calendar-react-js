@@ -1,0 +1,60 @@
+.cardDay {
+    display: flex;
+    width: 143px;
+    height: 120px;
+    border-right: 1px #292929 solid;
+    border-bottom: 1px #292929 solid;
+    flex-direction: column;
+    padding: 8px;
+    box-sizing: border-box;
+    background-color: inherit;
+
+    &__day {
+        margin: 0 auto 8px 0;
+        color: gray;
+        opacity: 0.7;
+    }
+    &__day-this-month {
+        color: black;
+        opacity: 1;
+    }
+    &__this-day {
+        background-color: #27a1ff;
+        border-radius: 50%;
+        padding: 5px;
+    }
+    &__title {
+        color: #292929;
+        margin: 0 auto 8px 0;
+        font-size: 14px;
+        line-height: 16px;
+        font-weight: 400;
+    }
+
+    &__participants {
+        margin: 0 auto 8px 0;
+        color: #6b6b6b;
+    }
+    &:hover {
+        background-color: #f4f4f4;
+        transition: 0.2s;
+    }
+
+    &:active {
+        box-shadow: 0 0 10px 2px #0271c7;
+        background-color: #ffffff;
+    }
+}
+
+.cardDay_true {
+    background-color: #c2e4fe;
+    &:hover {
+        background-color: #27a1ff;
+        transition: 0.2s;
+    }
+
+    &:active {
+        box-shadow: 0 0 10px 2px #0271c7;
+        background-color: #c2e4fe;
+    }
+}

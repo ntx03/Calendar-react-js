@@ -1,0 +1,27 @@
+.search__container {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    transition: 0.5s;
+    padding: 4px 0px 4px 9px;
+    &:hover {
+        background-color: #27a1ff;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    .search__title {
+        padding: 0;
+        margin: 0 auto 6px 0;
+        font-size: 14px;
+        line-height: 16px;
+        font-weight: 500;
+    }
+
+    .search__text {
+        padding: 0;
+        margin: 0 auto 0 0;
+        font-size: 12px;
+        line-height: 14px;
+        font-weight: 300;
+    }
+}
